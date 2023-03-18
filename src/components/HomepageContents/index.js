@@ -22,7 +22,7 @@ const FeatureList = [
         主に技術関連の備忘録やメモ等を掲載しています。
       </>
     ),
-    link: '/docs/intro',
+    link: '/docs/index',
   },
   {
     title: 'ブログ',
