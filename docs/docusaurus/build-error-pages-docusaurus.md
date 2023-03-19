@@ -1,6 +1,7 @@
 ---
 custom_edit_url: null
 id: build-error-pages-docusaurus
+description: Cloudflare Pages上でDocusaurusで作成したWebサイトをビルドしようとすると失敗する場合、ビルドツールに使用されるNode.jsのバージョンがv12.18.0で古いためです。環境変数を使用して、必要なバージョンのNode.jsを指定する必要があります。Docusaurusの要求バージョンであるv16.14以上に設定することでビルドが成功します。
 tags: [Docusaurus, Cloudflare Pages]
 ---
 
