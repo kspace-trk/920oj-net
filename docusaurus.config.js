@@ -1,6 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require('dotenv').config()
+const env = process.env
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -54,6 +57,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: env.GTAG_ID,
+          anonymizeIP: false,
+        },
       }),
     ],
   ],
@@ -62,7 +69,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/920oj-net-ogp.png',
       navbar: {
         title: '920oj.net',
         logo: {
