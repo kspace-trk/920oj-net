@@ -108,7 +108,7 @@ const config = {
               },
               {
                 label: 'Docs',
-                to: '/docs/index',
+                to: '/docs',
               },
               {
                 label: 'Blog',
